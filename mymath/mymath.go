@@ -20,3 +20,9 @@ func Max(ma, mi float64) float64 {
 func Min(ma, mi float64) float64 {
 	return math.Min(ma, mi)
 }
+func Abs(num float64) float64 {
+	return math.Abs(num)
+}
+func Yn(num int, secnum float64) float64 {
+	return math.Yn(num, secnum)
+}
