@@ -26,3 +26,12 @@ func Abs(num float64) float64 {
 func Yn(num int, secnum float64) float64 {
 	return math.Yn(num, secnum)
 }
+func Acos(x float64) float64 {
+	return math.Acos(x)
+}
+func Acosh(x float64) float64 {
+	return math.Acosh(x)
+}
+func Asin(x float64) float64 {
+	return math.Asin(x)
+}
